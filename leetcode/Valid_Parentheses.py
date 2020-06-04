@@ -1,3 +1,6 @@
+# 20. Valid Parentheses
+# Stack을 활용해서 풀면 O(N)으로 가능
+
 class Solution:
     def isValid(self, s: str) -> bool:
         stk = []
